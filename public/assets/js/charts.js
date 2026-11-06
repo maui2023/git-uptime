@@ -98,8 +98,8 @@ const StatusCharts = (() => {
     if (!ctx) return;
 
     const labels = series.map((s) => {
-      const parts = s.date.split("-");
-      return `${parts[1]}/${parts[2]}`;
+      const parts = (s && s.date) ? s.date.split("-") : [];
+      return parts.length >= 3 ? `${parts[1]}/${parts[2]}` : (s?.date || "");
     });
     const dataPoints = series.map((s) => s.uptime_percentage);
 
@@ -141,7 +141,7 @@ const StatusCharts = (() => {
             ticks: { color: THEME.tickColor, maxTicksLimit: 15, font: { family: THEME.fontFamily } },
           },
           y: {
-            min: 90,
+            suggestedMin: 90,
             max: 100,
             grid: { color: THEME.gridColor },
             ticks: {
@@ -160,8 +160,8 @@ const StatusCharts = (() => {
     if (!ctx) return;
 
     const labels = series.map((s) => {
-      const parts = s.date.split("-");
-      return `${parts[1]}/${parts[2]}`;
+      const parts = (s && s.date) ? s.date.split("-") : [];
+      return parts.length >= 3 ? `${parts[1]}/${parts[2]}` : (s?.date || "");
     });
     const dataPoints = series.map((s) => s.count);
 

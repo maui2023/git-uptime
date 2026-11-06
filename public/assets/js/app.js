@@ -116,15 +116,17 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!latest || !latest.summary) return;
     const s = latest.summary;
 
-    elements.metricTotal.textContent = s.total || 0;
-    elements.metricOperational.textContent = s.up || 0;
-    elements.metricDegraded.textContent = s.degraded || 0;
-    elements.metricDown.textContent = s.down || 0;
+    if (elements.metricTotal) elements.metricTotal.textContent = s.total ?? 0;
+    if (elements.metricOperational) elements.metricOperational.textContent = s.up ?? 0;
+    if (elements.metricDegraded) elements.metricDegraded.textContent = s.degraded ?? 0;
+    if (elements.metricDown) elements.metricDown.textContent = s.down ?? 0;
 
     const overallPct = summary && summary.overall_uptime_30d !== null && summary.overall_uptime_30d !== undefined
       ? `${summary.overall_uptime_30d.toFixed(2)}%`
       : "--";
-    elements.metricUptime.textContent = overallPct;
+    if (elements.metricUptime) {
+      elements.metricUptime.textContent = overallPct;
+    }
   }
 
   /**
@@ -340,18 +342,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (latest) {
-      elements.lastUpdated.textContent = formatTimestamp(latest.generated_at);
-      renderHeroBanner(latest, data.isStale, !result.success);
-      renderMetrics(latest, summary);
-      renderActiveIncidents(incidents);
-      renderMonitors(latest.monitors, summary);
-      renderPastIncidents(incidents);
+      if (elements.lastUpdated) elements.lastUpdated.textContent = formatTimestamp(latest.generated_at);
+      try { renderHeroBanner(latest, data.isStale, !result.success); } catch (e) { console.error("renderHeroBanner error:", e); }
+      try { renderMetrics(latest, summary); } catch (e) { console.error("renderMetrics error:", e); }
+      try { renderActiveIncidents(incidents); } catch (e) { console.error("renderActiveIncidents error:", e); }
+      try { renderMonitors(latest.monitors, summary); } catch (e) { console.error("renderMonitors error:", e); }
+      try { renderPastIncidents(incidents); } catch (e) { console.error("renderPastIncidents error:", e); }
 
       if (summary && summary.charts && window.StatusCharts) {
-        StatusCharts.renderCharts(summary.charts);
+        try { StatusCharts.renderCharts(summary.charts); } catch (e) { console.error("renderCharts error:", e); }
       }
     } else {
-      renderHeroBanner(null, true, true);
+      try { renderHeroBanner(null, true, true); } catch (e) { console.error("renderHeroBanner error:", e); }
     }
   }
 

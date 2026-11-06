@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import datetime
+import functools
 import json
 import socket
 import ssl
@@ -46,6 +47,16 @@ except ImportError:
     )
 
 
+@functools.lru_cache(maxsize=1)
+def get_ssl_context() -> ssl.SSLContext:
+    """Cached SSL context to avoid re-parsing certificates on every probe."""
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except (ImportError, Exception):
+        return ssl.create_default_context()
+
+
 class SSRFSafeRedirectHandler(urllib.request.HTTPRedirectHandler):
     """Intercepts HTTP redirects and aborts if redirect target points to a private/reserved address."""
 
@@ -77,17 +88,18 @@ def execute_http_probe(
             "error_message": err_msg,
         }
 
-    opener = urllib.request.build_opener(SSRFSafeRedirectHandler())
+    https_handler = urllib.request.HTTPSHandler(context=get_ssl_context())
+    opener = urllib.request.build_opener(SSRFSafeRedirectHandler(), https_handler)
     headers = {
-        "User-Agent": "Sabily-Uptime-Monitor/1.0 (+https://github.com/maui2023/git-uptime)",
-        "Accept": "*/*",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 (compatible; Sabily-Uptime-Monitor/1.0; +https://github.com/maui2023/git-uptime)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
     }
 
     req_method = method.upper()
 
     def _do_request(actual_method: str) -> Tuple[int, float, bytes]:
         req = urllib.request.Request(url, headers=headers, method=actual_method)
-        ssl_ctx = ssl.create_default_context()
         t0 = time.perf_counter()
         with opener.open(req, timeout=timeout) as resp:
             body = resp.read(1024 * 1024) if actual_method == "GET" else b""

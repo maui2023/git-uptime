@@ -9,9 +9,25 @@ const API = (() => {
   const GITHUB_RAW_URL = "https://raw.githubusercontent.com/maui2023/git-uptime/main/public/data";
   const LOCAL_DATA_URL = "./data";
 
-  // Determine active base URL: prefer local relative path if served locally or if pages path works,
-  // otherwise fallback to raw GitHub user content.
-  let activeBaseUrl = LOCAL_DATA_URL;
+  // Check whether running in a local environment (local dev server, file://, localhost, 127.0.0.1)
+  const isLocalEnvironment = (() => {
+    if (typeof window === "undefined" || !window.location) return false;
+    const proto = window.location.protocol;
+    const host = window.location.hostname;
+    return (
+      proto === "file:" ||
+      host === "localhost" ||
+      host === "127.0.0.1" ||
+      host === "0.0.0.0" ||
+      host.endsWith(".local")
+    );
+  })();
+
+  // In production (GitHub Pages or remote host), fetch from GITHUB_RAW_URL so monitoring results
+  // update dynamically every 5 minutes from GitHub Actions commits without requiring Pages rebuilds.
+  // In local development, fetch from LOCAL_DATA_URL.
+  let activeBaseUrl = isLocalEnvironment ? LOCAL_DATA_URL : GITHUB_RAW_URL;
+  let fallbackBaseUrl = isLocalEnvironment ? GITHUB_RAW_URL : LOCAL_DATA_URL;
 
   // Cached state to preserve display if a network failure occurs
   let cachedData = {
@@ -44,10 +60,10 @@ const API = (() => {
       }
       return await response.json();
     } catch (primaryErr) {
-      // If primary failed and was local, try GitHub raw URL fallback
-      if (activeBaseUrl !== GITHUB_RAW_URL) {
+      // If primary failed, try fallback URL
+      if (fallbackBaseUrl && fallbackBaseUrl !== activeBaseUrl) {
         try {
-          const fallbackUrl = `${GITHUB_RAW_URL}/${endpoint}?_t=${timestamp}`;
+          const fallbackUrl = `${fallbackBaseUrl}/${endpoint}?_t=${timestamp}`;
           const fallbackResp = await fetch(fallbackUrl, { cache: "no-cache" });
           if (fallbackResp.ok) {
             return await fallbackResp.json();
