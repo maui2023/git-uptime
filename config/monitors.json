@@ -38,22 +38,22 @@
       "expected_status_codes": [200, 301, 302]
     },
     {
-      "id": "cloudflare-dns",
-      "name": "Cloudflare 1.1.1.1 Web",
-      "url": "https://one.one.one.one",
-      "group": "Cloud Infrastructure",
+      "id": "commit-kpst",
+      "name": "Commit KPST",
+      "url": "https://commit.kpst.my",
+      "group": "Applications",
       "method": "GET",
       "enabled": true,
-      "expected_status_codes": [200, 301, 302]
+      "expected_status_codes": [200, 201, 204, 301, 302, 307, 308]
     },
     {
-      "id": "google-web",
-      "name": "Google Malaysia",
-      "url": "https://www.google.com.my",
-      "group": "Main Website",
+      "id": "sabily-ai",
+      "name": "Sabily AI",
+      "url": "https://ai.sabily.info",
+      "group": "AI Services",
       "method": "GET",
       "enabled": true,
-      "expected_status_codes": [200, 301, 302]
+      "expected_status_codes": [200, 201, 204, 301, 302, 307, 308]
     }
   ]
 }
