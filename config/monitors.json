@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "interval_seconds": 300,
+    "timeout_seconds": 10,
+    "retry_delay_seconds": 5,
+    "failure_threshold": 2,
+    "recovery_threshold": 1,
+    "history_days": 30,
+    "concurrency": 30,
+    "raw_data_url": "https://raw.githubusercontent.com/maui2023/git-uptime/main/public/data"
+  },
+  "monitors": [
+    {
+      "id": "sabily-main",
+      "name": "Sabily Enterprise",
+      "url": "https://sabily.info",
+      "group": "Main Website",
+      "method": "GET",
+      "enabled": true,
+      "expected_status_codes": [200, 201, 204, 301, 302, 307, 308]
+    },
+    {
+      "id": "mpanel",
+      "name": "MPanel Hosting",
+      "url": "https://pats.my",
+      "group": "Hosting",
+      "method": "GET",
+      "enabled": true,
+      "expected_status_codes": [200, 301, 302]
+    },
+    {
+      "id": "github-status",
+      "name": "GitHub Status API",
+      "url": "https://www.githubstatus.com",
+      "group": "Cloud Infrastructure",
+      "method": "GET",
+      "enabled": true,
+      "expected_status_codes": [200, 301, 302]
+    },
+    {
+      "id": "cloudflare-dns",
+      "name": "Cloudflare 1.1.1.1 Web",
+      "url": "https://one.one.one.one",
+      "group": "Cloud Infrastructure",
+      "method": "GET",
+      "enabled": true,
+      "expected_status_codes": [200, 301, 302]
+    },
+    {
+      "id": "google-web",
+      "name": "Google Malaysia",
+      "url": "https://www.google.com.my",
+      "group": "Main Website",
+      "method": "GET",
+      "enabled": true,
+      "expected_status_codes": [200, 301, 302]
+    }
+  ]
+}

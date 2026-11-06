@@ -1,0 +1,1484 @@
+{
+  "generated_at": "2026-11-06T14:17:30.512589+00:00",
+  "overall_uptime_30d": 100.0,
+  "monitors": {
+    "sabily-main": {
+      "id": "sabily-main",
+      "name": "Sabily Enterprise",
+      "uptime_24h": 100.0,
+      "uptime_7d": 100.0,
+      "uptime_30d": 100.0,
+      "avg_response_time_24h": 47.5,
+      "total_checks_30d": 1,
+      "successful_checks_30d": 1,
+      "daily_history": [
+        {
+          "date": "2026-10-08",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-09",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-10",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-11",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-12",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-13",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-14",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-15",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-16",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-17",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-18",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-19",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-20",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-21",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-22",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-23",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-24",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-25",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-26",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-27",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-28",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-29",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-30",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-31",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-01",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-02",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-04",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-05",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-06",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
+        }
+      ]
+    },
+    "mpanel": {
+      "id": "mpanel",
+      "name": "MPanel Hosting",
+      "uptime_24h": 100.0,
+      "uptime_7d": 100.0,
+      "uptime_30d": 100.0,
+      "avg_response_time_24h": 2966.7,
+      "total_checks_30d": 1,
+      "successful_checks_30d": 1,
+      "daily_history": [
+        {
+          "date": "2026-10-08",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-09",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-10",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-11",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-12",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-13",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-14",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-15",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-16",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-17",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-18",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-19",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-20",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-21",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-22",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-23",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-24",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-25",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-26",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-27",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-28",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-29",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-30",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-31",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-01",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-02",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-04",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-05",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-06",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
+        }
+      ]
+    },
+    "github-status": {
+      "id": "github-status",
+      "name": "GitHub Status API",
+      "uptime_24h": 100.0,
+      "uptime_7d": 100.0,
+      "uptime_30d": 100.0,
+      "avg_response_time_24h": 90.7,
+      "total_checks_30d": 1,
+      "successful_checks_30d": 1,
+      "daily_history": [
+        {
+          "date": "2026-10-08",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-09",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-10",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-11",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-12",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-13",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-14",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-15",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-16",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-17",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-18",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-19",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-20",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-21",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-22",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-23",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-24",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-25",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-26",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-27",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-28",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-29",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-30",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-31",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-01",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-02",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-04",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-05",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-06",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
+        }
+      ]
+    },
+    "cloudflare-dns": {
+      "id": "cloudflare-dns",
+      "name": "Cloudflare 1.1.1.1 Web",
+      "uptime_24h": 100.0,
+      "uptime_7d": 100.0,
+      "uptime_30d": 100.0,
+      "avg_response_time_24h": 148.2,
+      "total_checks_30d": 1,
+      "successful_checks_30d": 1,
+      "daily_history": [
+        {
+          "date": "2026-10-08",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-09",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-10",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-11",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-12",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-13",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-14",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-15",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-16",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-17",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-18",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-19",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-20",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-21",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-22",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-23",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-24",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-25",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-26",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-27",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-28",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-29",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-30",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-31",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-01",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-02",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-04",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-05",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-06",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
+        }
+      ]
+    },
+    "google-web": {
+      "id": "google-web",
+      "name": "Google Malaysia",
+      "uptime_24h": 100.0,
+      "uptime_7d": 100.0,
+      "uptime_30d": 100.0,
+      "avg_response_time_24h": 126.8,
+      "total_checks_30d": 1,
+      "successful_checks_30d": 1,
+      "daily_history": [
+        {
+          "date": "2026-10-08",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-09",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-10",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-11",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-12",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-13",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-14",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-15",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-16",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-17",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-18",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-19",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-20",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-21",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-22",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-23",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-24",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-25",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-26",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-27",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-28",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-29",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-30",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-10-31",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-01",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-02",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-03",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-04",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-05",
+          "uptime_percentage": null,
+          "status": "NODATA",
+          "total_checks": 0,
+          "successful_checks": 0
+        },
+        {
+          "date": "2026-11-06",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
+        }
+      ]
+    }
+  },
+  "charts": {
+    "response_time_24h": [
+      {
+        "time": "15:00",
+        "datetime": "2026-11-05 15:00",
+        "avg_ms": null
+      },
+      {
+        "time": "16:00",
+        "datetime": "2026-11-05 16:00",
+        "avg_ms": null
+      },
+      {
+        "time": "17:00",
+        "datetime": "2026-11-05 17:00",
+        "avg_ms": null
+      },
+      {
+        "time": "18:00",
+        "datetime": "2026-11-05 18:00",
+        "avg_ms": null
+      },
+      {
+        "time": "19:00",
+        "datetime": "2026-11-05 19:00",
+        "avg_ms": null
+      },
+      {
+        "time": "20:00",
+        "datetime": "2026-11-05 20:00",
+        "avg_ms": null
+      },
+      {
+        "time": "21:00",
+        "datetime": "2026-11-05 21:00",
+        "avg_ms": null
+      },
+      {
+        "time": "22:00",
+        "datetime": "2026-11-05 22:00",
+        "avg_ms": null
+      },
+      {
+        "time": "23:00",
+        "datetime": "2026-11-05 23:00",
+        "avg_ms": null
+      },
+      {
+        "time": "00:00",
+        "datetime": "2026-11-06 00:00",
+        "avg_ms": null
+      },
+      {
+        "time": "01:00",
+        "datetime": "2026-11-06 01:00",
+        "avg_ms": null
+      },
+      {
+        "time": "02:00",
+        "datetime": "2026-11-06 02:00",
+        "avg_ms": null
+      },
+      {
+        "time": "03:00",
+        "datetime": "2026-11-06 03:00",
+        "avg_ms": null
+      },
+      {
+        "time": "04:00",
+        "datetime": "2026-11-06 04:00",
+        "avg_ms": null
+      },
+      {
+        "time": "05:00",
+        "datetime": "2026-11-06 05:00",
+        "avg_ms": null
+      },
+      {
+        "time": "06:00",
+        "datetime": "2026-11-06 06:00",
+        "avg_ms": null
+      },
+      {
+        "time": "07:00",
+        "datetime": "2026-11-06 07:00",
+        "avg_ms": null
+      },
+      {
+        "time": "08:00",
+        "datetime": "2026-11-06 08:00",
+        "avg_ms": null
+      },
+      {
+        "time": "09:00",
+        "datetime": "2026-11-06 09:00",
+        "avg_ms": null
+      },
+      {
+        "time": "10:00",
+        "datetime": "2026-11-06 10:00",
+        "avg_ms": null
+      },
+      {
+        "time": "11:00",
+        "datetime": "2026-11-06 11:00",
+        "avg_ms": null
+      },
+      {
+        "time": "12:00",
+        "datetime": "2026-11-06 12:00",
+        "avg_ms": null
+      },
+      {
+        "time": "13:00",
+        "datetime": "2026-11-06 13:00",
+        "avg_ms": null
+      },
+      {
+        "time": "14:00",
+        "datetime": "2026-11-06 14:00",
+        "avg_ms": 676.0
+      }
+    ],
+    "availability_30d": [
+      {
+        "date": "2026-10-08",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-09",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-10",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-11",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-12",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-13",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-14",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-15",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-16",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-17",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-18",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-19",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-20",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-21",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-22",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-23",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-24",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-25",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-26",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-27",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-28",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-29",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-30",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-10-31",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-01",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-02",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-03",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-04",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-05",
+        "uptime_percentage": null
+      },
+      {
+        "date": "2026-11-06",
+        "uptime_percentage": 100.0
+      }
+    ],
+    "incident_frequency_30d": [
+      {
+        "date": "2026-10-08",
+        "count": 0
+      },
+      {
+        "date": "2026-10-09",
+        "count": 0
+      },
+      {
+        "date": "2026-10-10",
+        "count": 0
+      },
+      {
+        "date": "2026-10-11",
+        "count": 0
+      },
+      {
+        "date": "2026-10-12",
+        "count": 0
+      },
+      {
+        "date": "2026-10-13",
+        "count": 0
+      },
+      {
+        "date": "2026-10-14",
+        "count": 0
+      },
+      {
+        "date": "2026-10-15",
+        "count": 0
+      },
+      {
+        "date": "2026-10-16",
+        "count": 0
+      },
+      {
+        "date": "2026-10-17",
+        "count": 0
+      },
+      {
+        "date": "2026-10-18",
+        "count": 0
+      },
+      {
+        "date": "2026-10-19",
+        "count": 0
+      },
+      {
+        "date": "2026-10-20",
+        "count": 0
+      },
+      {
+        "date": "2026-10-21",
+        "count": 0
+      },
+      {
+        "date": "2026-10-22",
+        "count": 0
+      },
+      {
+        "date": "2026-10-23",
+        "count": 0
+      },
+      {
+        "date": "2026-10-24",
+        "count": 0
+      },
+      {
+        "date": "2026-10-25",
+        "count": 0
+      },
+      {
+        "date": "2026-10-26",
+        "count": 0
+      },
+      {
+        "date": "2026-10-27",
+        "count": 0
+      },
+      {
+        "date": "2026-10-28",
+        "count": 0
+      },
+      {
+        "date": "2026-10-29",
+        "count": 0
+      },
+      {
+        "date": "2026-10-30",
+        "count": 0
+      },
+      {
+        "date": "2026-10-31",
+        "count": 0
+      },
+      {
+        "date": "2026-11-01",
+        "count": 0
+      },
+      {
+        "date": "2026-11-02",
+        "count": 0
+      },
+      {
+        "date": "2026-11-03",
+        "count": 0
+      },
+      {
+        "date": "2026-11-04",
+        "count": 0
+      },
+      {
+        "date": "2026-11-05",
+        "count": 0
+      },
+      {
+        "date": "2026-11-06",
+        "count": 0
+      }
+    ]
+  }
+}

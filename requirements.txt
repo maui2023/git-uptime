@@ -1,0 +1,4 @@
+# Python dependencies for Sabily Uptime Monitor
+# The monitoring engine itself is built purely with Python 3 standard library.
+# Dependencies below are for testing and CI validation.
+pytest>=8.0.0
