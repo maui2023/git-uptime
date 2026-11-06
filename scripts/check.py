@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 try:
     from scripts.incidents import IncidentManager
+    from scripts.notifier import TelegramNotifier
     from scripts.storage import StorageManager
     from scripts.uptime import UptimeCalculator
     from scripts.utils import (
@@ -37,6 +38,7 @@ try:
     )
 except ImportError:
     from incidents import IncidentManager
+    from notifier import TelegramNotifier
     from storage import StorageManager
     from uptime import UptimeCalculator
     from utils import (
@@ -358,6 +360,11 @@ def run_monitoring_cycle(
 
     print(f"[*] Starting monitoring cycle at {get_iso_now()}")
     print(f"[*] Total monitors: {len(active_monitors)} (concurrency: {concurrency})")
+    telegram_notifier = TelegramNotifier()
+    if telegram_notifier.is_configured():
+        print("  [*] Telegram notifications: ENABLED")
+    else:
+        print("  [*] Telegram notifications: DISABLED (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set)")
 
     results: List[Dict[str, Any]] = []
 
@@ -403,7 +410,7 @@ def run_monitoring_cycle(
     order_map = {m["id"]: idx for idx, m in enumerate(monitors)}
     results.sort(key=lambda r: order_map.get(r["id"], 999))
 
-    # Manage incidents
+    # Manage incidents & send alerts
     for res in results:
         mid = res["id"]
         mname = res["name"]
@@ -411,16 +418,21 @@ def run_monitoring_cycle(
         err_msg = res["error_message"] or f"Service {mname} is unreachable"
 
         if mstate == "down":
-            incident_mgr.create_incident(
+            inc = incident_mgr.create_incident(
                 monitor_id=mid,
                 monitor_name=mname,
                 error_description=err_msg,
             )
+            # Only send outage notification on a newly created incident to avoid spamming
+            if inc.get("is_new"):
+                telegram_notifier.notify_outage(res, inc)
         elif res["status"] == "UP":
-            incident_mgr.resolve_incident(
+            resolved_inc = incident_mgr.resolve_incident(
                 monitor_id=mid,
                 resolution_message=f"Service {mname} responded with HTTP {res['http_status_code']} and is operational.",
             )
+            if resolved_inc:
+                telegram_notifier.notify_recovery(res, resolved_inc)
 
     # Compute overall status
     down_count = sum(1 for r in results if r["status"] == "DOWN")

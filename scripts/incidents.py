@@ -39,11 +39,16 @@ class IncidentManager:
     def save(self) -> None:
         """Save incidents to disk."""
         self.incidents_file.parent.mkdir(parents=True, exist_ok=True)
+        cleaned_incidents = []
+        for inc in self.incidents:
+            c = dict(inc)
+            c.pop("is_new", None)
+            cleaned_incidents.append(c)
         payload = {
             "last_updated": get_iso_now(),
             "total_incidents": len(self.incidents),
             "active_incidents": len(self.get_active_incidents()),
-            "incidents": self.incidents,
+            "incidents": cleaned_incidents,
         }
         with open(self.incidents_file, "w", encoding="utf-8") as f:
             json.dump(payload, f, indent=2)
@@ -70,6 +75,7 @@ class IncidentManager:
         existing = self.get_active_incident_for_monitor(monitor_id)
         if existing:
             # Do not duplicate ongoing incident
+            existing["is_new"] = False
             return existing
 
         now_str = timestamp or get_iso_now()
@@ -92,6 +98,7 @@ class IncidentManager:
                     "message": f"Outage detected: {error_description}",
                 }
             ],
+            "is_new": True,
         }
 
         # Insert at the beginning so newest incidents appear first

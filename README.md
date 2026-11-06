@@ -116,7 +116,23 @@ git-uptime/
 2. Scroll to **Workflow permissions**.
 3. Select **Read and write permissions** and click **Save**.
 
-### 3. Add or Modify Monitored Websites
+### 3. Set Up Telegram Bot Notifications (Optional & 100% Confidential)
+Receive instant alerts when an outage is detected or resolved without exposing tokens in public repositories:
+
+1. **Create a Telegram Bot**:
+   - Search for [@BotFather](https://t.me/BotFather) on Telegram.
+   - Send `/newbot`, follow the prompts, and copy the generated **HTTP API Token** (e.g. `123456789:ABCdefGHI...`).
+2. **Get your Telegram Chat ID**:
+   - Start a conversation with your new bot (press **Start**).
+   - Find your Chat ID via [@userinfobot](https://t.me/userinfobot) (or forward a message to [@GetIDsBot](https://t.me/GetIDsBot)). Copy the numeric ID.
+3. **Store Secrets in GitHub**:
+   - In your GitHub repository, go to **Settings** ➔ **Secrets and variables** ➔ **Actions**.
+   - Click **New repository secret** and add:
+     - `TELEGRAM_BOT_TOKEN`: `<your bot token>`
+     - `TELEGRAM_CHAT_ID`: `<your chat ID>`
+   - *These secrets are encrypted by GitHub and are never displayed in git history or publicly visible files.*
+
+### 4. Add or Modify Monitored Websites
 Edit `config/monitors.json`:
 
 ```json
@@ -157,7 +173,7 @@ Edit `config/monitors.json`:
 | `expected_status_codes` | List[Int] | Status codes considered operational (e.g. `[200, 301]`). |
 | `keyword` *(Optional)* | String | Substring that must be present in response body. |
 
-### 4. Running Locally
+### 5. Running Locally
 
 #### Run Unit Tests:
 ```bash
