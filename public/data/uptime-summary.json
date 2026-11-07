@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:14:34.924838+00:00",
+  "generated_at": "2026-11-07T06:02:46.254545+00:00",
   "overall_uptime_30d": 100.0,
   "monitors": {
     "sabily-main": {
@@ -8,9 +8,9 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 507.1,
-      "total_checks_30d": 8,
-      "successful_checks_30d": 8,
+      "avg_response_time_24h": 603.1,
+      "total_checks_30d": 9,
+      "successful_checks_30d": 9,
       "daily_history": [
         {
           "date": "2026-10-09",
@@ -219,8 +219,8 @@
           "date": "2026-11-07",
           "uptime_percentage": 100.0,
           "status": "UP",
-          "total_checks": 1,
-          "successful_checks": 1
+          "total_checks": 2,
+          "successful_checks": 2
         }
       ]
     },
@@ -230,9 +230,9 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1134.1,
-      "total_checks_30d": 8,
-      "successful_checks_30d": 8,
+      "avg_response_time_24h": 1234.3,
+      "total_checks_30d": 9,
+      "successful_checks_30d": 9,
       "daily_history": [
         {
           "date": "2026-10-09",
@@ -441,8 +441,8 @@
           "date": "2026-11-07",
           "uptime_percentage": 100.0,
           "status": "UP",
-          "total_checks": 1,
-          "successful_checks": 1
+          "total_checks": 2,
+          "successful_checks": 2
         }
       ]
     },
@@ -452,9 +452,9 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 268.5,
-      "total_checks_30d": 8,
-      "successful_checks_30d": 8,
+      "avg_response_time_24h": 258.5,
+      "total_checks_30d": 9,
+      "successful_checks_30d": 9,
       "daily_history": [
         {
           "date": "2026-10-09",
@@ -663,8 +663,8 @@
           "date": "2026-11-07",
           "uptime_percentage": 100.0,
           "status": "UP",
-          "total_checks": 1,
-          "successful_checks": 1
+          "total_checks": 2,
+          "successful_checks": 2
         }
       ]
     },
@@ -674,9 +674,9 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 949.4,
-      "total_checks_30d": 4,
-      "successful_checks_30d": 4,
+      "avg_response_time_24h": 1025.3,
+      "total_checks_30d": 5,
+      "successful_checks_30d": 5,
       "daily_history": [
         {
           "date": "2026-10-09",
@@ -885,8 +885,8 @@
           "date": "2026-11-07",
           "uptime_percentage": 100.0,
           "status": "UP",
-          "total_checks": 1,
-          "successful_checks": 1
+          "total_checks": 2,
+          "successful_checks": 2
         }
       ]
     },
@@ -896,9 +896,9 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 760.2,
-      "total_checks_30d": 4,
-      "successful_checks_30d": 4,
+      "avg_response_time_24h": 891.1,
+      "total_checks_30d": 5,
+      "successful_checks_30d": 5,
       "daily_history": [
         {
           "date": "2026-10-09",
@@ -1107,44 +1107,14 @@
           "date": "2026-11-07",
           "uptime_percentage": 100.0,
           "status": "UP",
-          "total_checks": 1,
-          "successful_checks": 1
+          "total_checks": 2,
+          "successful_checks": 2
         }
       ]
     }
   },
   "charts": {
     "response_time_24h": [
-      {
-        "time": "01:00",
-        "datetime": "2026-11-06 01:00",
-        "avg_ms": null
-      },
-      {
-        "time": "02:00",
-        "datetime": "2026-11-06 02:00",
-        "avg_ms": null
-      },
-      {
-        "time": "03:00",
-        "datetime": "2026-11-06 03:00",
-        "avg_ms": null
-      },
-      {
-        "time": "04:00",
-        "datetime": "2026-11-06 04:00",
-        "avg_ms": null
-      },
-      {
-        "time": "05:00",
-        "datetime": "2026-11-06 05:00",
-        "avg_ms": null
-      },
-      {
-        "time": "06:00",
-        "datetime": "2026-11-06 06:00",
-        "avg_ms": null
-      },
       {
         "time": "07:00",
         "datetime": "2026-11-06 07:00",
@@ -1234,6 +1204,36 @@
         "time": "00:00",
         "datetime": "2026-11-07 00:00",
         "avg_ms": 970.8
+      },
+      {
+        "time": "01:00",
+        "datetime": "2026-11-07 01:00",
+        "avg_ms": null
+      },
+      {
+        "time": "02:00",
+        "datetime": "2026-11-07 02:00",
+        "avg_ms": null
+      },
+      {
+        "time": "03:00",
+        "datetime": "2026-11-07 03:00",
+        "avg_ms": null
+      },
+      {
+        "time": "04:00",
+        "datetime": "2026-11-07 04:00",
+        "avg_ms": null
+      },
+      {
+        "time": "05:00",
+        "datetime": "2026-11-07 05:00",
+        "avg_ms": null
+      },
+      {
+        "time": "06:00",
+        "datetime": "2026-11-07 06:00",
+        "avg_ms": 1265.8
       }
     ],
     "availability_30d": [
