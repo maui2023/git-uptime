@@ -349,8 +349,9 @@ document.addEventListener("DOMContentLoaded", () => {
       try { renderMonitors(latest.monitors, summary); } catch (e) { console.error("renderMonitors error:", e); }
       try { renderPastIncidents(incidents); } catch (e) { console.error("renderPastIncidents error:", e); }
 
-      if (summary && summary.charts && window.StatusCharts) {
-        try { StatusCharts.renderCharts(summary.charts); } catch (e) { console.error("renderCharts error:", e); }
+      const chartsModule = window.StatusCharts || (typeof StatusCharts !== "undefined" ? StatusCharts : null);
+      if (summary && summary.charts && chartsModule) {
+        try { chartsModule.renderCharts(summary.charts, summary); } catch (e) { console.error("renderCharts error:", e); }
       }
     } else {
       try { renderHeroBanner(null, true, true); } catch (e) { console.error("renderHeroBanner error:", e); }

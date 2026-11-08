@@ -117,36 +117,48 @@
       <div class="row g-3">
         <div class="col-lg-6">
           <div class="chart-card shadow-sm h-100">
-            <div class="chart-card-title d-flex justify-content-between align-items-center">
-              <span>Response Time (Last 24 Hours)</span>
+            <div class="chart-card-title d-flex justify-content-between align-items-center flex-wrap gap-2">
+              <div class="d-flex align-items-center">
+                <span>Response Time (Last 24 Hours)</span>
+                <span id="badge-response-time" class="badge bg-primary-subtle text-primary border border-primary-subtle ms-2 d-none">--</span>
+              </div>
               <span class="small text-muted fw-normal">Average latency in ms</span>
             </div>
             <div style="height: 220px; position: relative;">
               <canvas id="chart-response-time"></canvas>
+              <div id="empty-response-time" class="chart-empty-state d-none">No response time data in the last 24 hours</div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-6">
           <div class="chart-card shadow-sm h-100">
-            <div class="chart-card-title d-flex justify-content-between align-items-center">
-              <span>System Uptime % (Last 30 Days)</span>
+            <div class="chart-card-title d-flex justify-content-between align-items-center flex-wrap gap-2">
+              <div class="d-flex align-items-center">
+                <span>System Uptime % (Last 30 Days)</span>
+                <span id="badge-availability" class="badge bg-success-subtle text-success border border-success-subtle ms-2 d-none">--</span>
+              </div>
               <span class="small text-muted fw-normal">Daily availability %</span>
             </div>
             <div style="height: 220px; position: relative;">
               <canvas id="chart-availability"></canvas>
+              <div id="empty-availability" class="chart-empty-state d-none">No uptime history recorded yet</div>
             </div>
           </div>
         </div>
 
         <div class="col-12">
           <div class="chart-card shadow-sm">
-            <div class="chart-card-title d-flex justify-content-between align-items-center">
-              <span>Incident Frequency (Last 30 Days)</span>
+            <div class="chart-card-title d-flex justify-content-between align-items-center flex-wrap gap-2">
+              <div class="d-flex align-items-center">
+                <span>Incident Frequency (Last 30 Days)</span>
+                <span id="badge-incidents" class="badge bg-success-subtle text-success border border-success-subtle ms-2 d-none">--</span>
+              </div>
               <span class="small text-muted fw-normal">Daily outage count</span>
             </div>
             <div style="height: 180px; position: relative;">
               <canvas id="chart-incidents"></canvas>
+              <div id="empty-incidents" class="chart-empty-state d-none">0 incidents recorded &bull; All systems operating normally</div>
             </div>
           </div>
         </div>

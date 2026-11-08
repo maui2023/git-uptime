@@ -37,13 +37,13 @@ class UptimeCalculator:
         self.history_dir = self.data_dir / "history"
         self.history_days = history_days
 
-    def load_recent_history_records(self, max_days: int = 30) -> List[Dict[str, Any]]:
+    def load_recent_history_records(self, max_days: int = 30, now_date: Optional[datetime.date] = None) -> List[Dict[str, Any]]:
         """Load records from daily history JSON files within the last max_days."""
         records: List[Dict[str, Any]] = []
         if not self.history_dir.is_dir():
             return records
 
-        today = datetime.datetime.now(datetime.timezone.utc).date()
+        today = now_date or datetime.datetime.now(datetime.timezone.utc).date()
         cutoff_date = today - datetime.timedelta(days=max_days)
 
         for json_file in sorted(self.history_dir.glob("*.json")):
@@ -74,7 +74,7 @@ class UptimeCalculator:
         """Compute comprehensive uptime summary for all monitors and overall system."""
         now_utc = now or datetime.datetime.now(datetime.timezone.utc)
         today = now_utc.date()
-        records = self.load_recent_history_records(self.history_days)
+        records = self.load_recent_history_records(self.history_days, now_date=today)
 
         # Time cutoffs
         t_24h = now_utc - datetime.timedelta(hours=24)
@@ -222,6 +222,7 @@ class UptimeCalculator:
             chart_response_series.append({
                 "time": display_label,
                 "datetime": hour_lbl,
+                "iso": hour_lbl.replace(" ", "T") + ":00Z",
                 "avg_ms": avg_val,
             })
 
