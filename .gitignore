@@ -22,3 +22,8 @@ ENV/
 Thumbs.db
 .vscode/
 .idea/
+
+# Monitoring Data
+data/
+public/data/
+
