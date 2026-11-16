@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T21:57:38.592679+00:00",
+  "generated_at": "2026-11-16T01:35:58.774203+00:00",
   "overall_uptime_30d": 100.0,
   "monitors": {
     "sabily-main": {
@@ -8,17 +8,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1088.0,
-      "total_checks_30d": 44,
-      "successful_checks_30d": 44,
+      "avg_response_time_24h": 1051.2,
+      "total_checks_30d": 45,
+      "successful_checks_30d": 45,
       "daily_history": [
-        {
-          "date": "2026-10-17",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-18",
           "uptime_percentage": null,
@@ -221,6 +214,13 @@
           "status": "UP",
           "total_checks": 4,
           "successful_checks": 4
+        },
+        {
+          "date": "2026-11-16",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -230,17 +230,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 992.2,
-      "total_checks_30d": 44,
-      "successful_checks_30d": 44,
+      "avg_response_time_24h": 1005.7,
+      "total_checks_30d": 45,
+      "successful_checks_30d": 45,
       "daily_history": [
-        {
-          "date": "2026-10-17",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-18",
           "uptime_percentage": null,
@@ -443,6 +436,13 @@
           "status": "UP",
           "total_checks": 4,
           "successful_checks": 4
+        },
+        {
+          "date": "2026-11-16",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -452,17 +452,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 101.9,
-      "total_checks_30d": 44,
-      "successful_checks_30d": 44,
+      "avg_response_time_24h": 116.0,
+      "total_checks_30d": 45,
+      "successful_checks_30d": 45,
       "daily_history": [
-        {
-          "date": "2026-10-17",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-18",
           "uptime_percentage": null,
@@ -665,6 +658,13 @@
           "status": "UP",
           "total_checks": 4,
           "successful_checks": 4
+        },
+        {
+          "date": "2026-11-16",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -674,17 +674,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1116.4,
-      "total_checks_30d": 40,
-      "successful_checks_30d": 40,
+      "avg_response_time_24h": 1126.2,
+      "total_checks_30d": 41,
+      "successful_checks_30d": 41,
       "daily_history": [
-        {
-          "date": "2026-10-17",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-18",
           "uptime_percentage": null,
@@ -887,6 +880,13 @@
           "status": "UP",
           "total_checks": 4,
           "successful_checks": 4
+        },
+        {
+          "date": "2026-11-16",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -896,17 +896,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1393.5,
-      "total_checks_30d": 40,
-      "successful_checks_30d": 40,
+      "avg_response_time_24h": 1419.4,
+      "total_checks_30d": 41,
+      "successful_checks_30d": 41,
       "daily_history": [
-        {
-          "date": "2026-10-17",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-18",
           "uptime_percentage": null,
@@ -1109,36 +1102,19 @@
           "status": "UP",
           "total_checks": 4,
           "successful_checks": 4
+        },
+        {
+          "date": "2026-11-16",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     }
   },
   "charts": {
     "response_time_24h": [
-      {
-        "time": "22:00",
-        "datetime": "2026-11-14 22:00",
-        "iso": "2026-11-14T22:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "23:00",
-        "datetime": "2026-11-14 23:00",
-        "iso": "2026-11-14T23:00:00Z",
-        "avg_ms": 893.2
-      },
-      {
-        "time": "00:00",
-        "datetime": "2026-11-15 00:00",
-        "iso": "2026-11-15T00:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "01:00",
-        "datetime": "2026-11-15 01:00",
-        "iso": "2026-11-15T01:00:00Z",
-        "avg_ms": null
-      },
       {
         "time": "02:00",
         "datetime": "2026-11-15 02:00",
@@ -1258,13 +1234,33 @@
         "datetime": "2026-11-15 21:00",
         "iso": "2026-11-15T21:00:00Z",
         "avg_ms": 1063.0
+      },
+      {
+        "time": "22:00",
+        "datetime": "2026-11-15 22:00",
+        "iso": "2026-11-15T22:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "23:00",
+        "datetime": "2026-11-15 23:00",
+        "iso": "2026-11-15T23:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "00:00",
+        "datetime": "2026-11-16 00:00",
+        "iso": "2026-11-16T00:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "01:00",
+        "datetime": "2026-11-16 01:00",
+        "iso": "2026-11-16T01:00:00Z",
+        "avg_ms": 919.8
       }
     ],
     "availability_30d": [
-      {
-        "date": "2026-10-17",
-        "uptime_percentage": null
-      },
       {
         "date": "2026-10-18",
         "uptime_percentage": null
@@ -1379,15 +1375,15 @@
       },
       {
         "date": "2026-11-15",
+        "uptime_percentage": 100.0
+      },
+      {
+        "date": "2026-11-16",
         "uptime_percentage": 100.0
       }
     ],
     "incident_frequency_30d": [
       {
-        "date": "2026-10-17",
-        "count": 0
-      },
-      {
         "date": "2026-10-18",
         "count": 0
       },
@@ -1501,6 +1497,10 @@
       },
       {
         "date": "2026-11-15",
+        "count": 0
+      },
+      {
+        "date": "2026-11-16",
         "count": 0
       }
     ]
