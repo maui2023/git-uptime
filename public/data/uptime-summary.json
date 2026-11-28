@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:57:38.552364+00:00",
+  "generated_at": "2026-11-28T03:44:22.381444+00:00",
   "overall_uptime_30d": 99.75,
   "monitors": {
     "sabily-main": {
@@ -8,17 +8,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1043.9,
-      "total_checks_30d": 82,
-      "successful_checks_30d": 82,
+      "avg_response_time_24h": 1143.5,
+      "total_checks_30d": 83,
+      "successful_checks_30d": 83,
       "daily_history": [
-        {
-          "date": "2026-10-29",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-30",
           "uptime_percentage": null,
@@ -221,6 +214,13 @@
           "status": "UP",
           "total_checks": 3,
           "successful_checks": 3
+        },
+        {
+          "date": "2026-11-28",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -230,17 +230,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1103.1,
-      "total_checks_30d": 82,
-      "successful_checks_30d": 82,
+      "avg_response_time_24h": 1147.3,
+      "total_checks_30d": 83,
+      "successful_checks_30d": 83,
       "daily_history": [
-        {
-          "date": "2026-10-29",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-30",
           "uptime_percentage": null,
@@ -443,6 +436,13 @@
           "status": "UP",
           "total_checks": 3,
           "successful_checks": 3
+        },
+        {
+          "date": "2026-11-28",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -452,17 +452,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 106.9,
-      "total_checks_30d": 82,
-      "successful_checks_30d": 82,
+      "avg_response_time_24h": 107.1,
+      "total_checks_30d": 83,
+      "successful_checks_30d": 83,
       "daily_history": [
-        {
-          "date": "2026-10-29",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-30",
           "uptime_percentage": null,
@@ -665,6 +658,13 @@
           "status": "UP",
           "total_checks": 3,
           "successful_checks": 3
+        },
+        {
+          "date": "2026-11-28",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -674,17 +674,10 @@
       "uptime_24h": 100.0,
       "uptime_7d": 100.0,
       "uptime_30d": 100.0,
-      "avg_response_time_24h": 1289.6,
-      "total_checks_30d": 78,
-      "successful_checks_30d": 78,
+      "avg_response_time_24h": 1276.2,
+      "total_checks_30d": 79,
+      "successful_checks_30d": 79,
       "daily_history": [
-        {
-          "date": "2026-10-29",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-30",
           "uptime_percentage": null,
@@ -887,6 +880,13 @@
           "status": "UP",
           "total_checks": 3,
           "successful_checks": 3
+        },
+        {
+          "date": "2026-11-28",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     },
@@ -895,18 +895,11 @@
       "name": "Sabily AI",
       "uptime_24h": 100.0,
       "uptime_7d": 95.45,
-      "uptime_30d": 98.72,
-      "avg_response_time_24h": 1812.6,
-      "total_checks_30d": 78,
-      "successful_checks_30d": 77,
+      "uptime_30d": 98.73,
+      "avg_response_time_24h": 1725.9,
+      "total_checks_30d": 79,
+      "successful_checks_30d": 78,
       "daily_history": [
-        {
-          "date": "2026-10-29",
-          "uptime_percentage": null,
-          "status": "NODATA",
-          "total_checks": 0,
-          "successful_checks": 0
-        },
         {
           "date": "2026-10-30",
           "uptime_percentage": null,
@@ -1109,48 +1102,19 @@
           "status": "UP",
           "total_checks": 3,
           "successful_checks": 3
+        },
+        {
+          "date": "2026-11-28",
+          "uptime_percentage": 100.0,
+          "status": "UP",
+          "total_checks": 1,
+          "successful_checks": 1
         }
       ]
     }
   },
   "charts": {
     "response_time_24h": [
-      {
-        "time": "22:00",
-        "datetime": "2026-11-26 22:00",
-        "iso": "2026-11-26T22:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "23:00",
-        "datetime": "2026-11-26 23:00",
-        "iso": "2026-11-26T23:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "00:00",
-        "datetime": "2026-11-27 00:00",
-        "iso": "2026-11-27T00:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "01:00",
-        "datetime": "2026-11-27 01:00",
-        "iso": "2026-11-27T01:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "02:00",
-        "datetime": "2026-11-27 02:00",
-        "iso": "2026-11-27T02:00:00Z",
-        "avg_ms": null
-      },
-      {
-        "time": "03:00",
-        "datetime": "2026-11-27 03:00",
-        "iso": "2026-11-27T03:00:00Z",
-        "avg_ms": 1125.6
-      },
       {
         "time": "04:00",
         "datetime": "2026-11-27 04:00",
@@ -1258,13 +1222,45 @@
         "datetime": "2026-11-27 21:00",
         "iso": "2026-11-27T21:00:00Z",
         "avg_ms": 1080.5
+      },
+      {
+        "time": "22:00",
+        "datetime": "2026-11-27 22:00",
+        "iso": "2026-11-27T22:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "23:00",
+        "datetime": "2026-11-27 23:00",
+        "iso": "2026-11-27T23:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "00:00",
+        "datetime": "2026-11-28 00:00",
+        "iso": "2026-11-28T00:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "01:00",
+        "datetime": "2026-11-28 01:00",
+        "iso": "2026-11-28T01:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "02:00",
+        "datetime": "2026-11-28 02:00",
+        "iso": "2026-11-28T02:00:00Z",
+        "avg_ms": null
+      },
+      {
+        "time": "03:00",
+        "datetime": "2026-11-28 03:00",
+        "iso": "2026-11-28T03:00:00Z",
+        "avg_ms": 1106.4
       }
     ],
     "availability_30d": [
-      {
-        "date": "2026-10-29",
-        "uptime_percentage": null
-      },
       {
         "date": "2026-10-30",
         "uptime_percentage": null
@@ -1380,13 +1376,13 @@
       {
         "date": "2026-11-27",
         "uptime_percentage": 100.0
+      },
+      {
+        "date": "2026-11-28",
+        "uptime_percentage": 100.0
       }
     ],
     "incident_frequency_30d": [
-      {
-        "date": "2026-10-29",
-        "count": 0
-      },
       {
         "date": "2026-10-30",
         "count": 0
@@ -1501,6 +1497,10 @@
       },
       {
         "date": "2026-11-27",
+        "count": 0
+      },
+      {
+        "date": "2026-11-28",
         "count": 0
       }
     ]
